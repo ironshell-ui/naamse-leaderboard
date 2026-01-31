@@ -1,0 +1,12 @@
+[green_agent]
+agentbeats_id = "019bc066-0975-7de0-97e9-462bd9859488"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", LOG_LEVEL = "INFO" , NAAMSE_RANDOM_SEED=42}
+
+[[participants]]
+agentbeats_id = "019bc072-c309-7850-bb28-cfb40d5d703d"
+name = "agent"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", LOG_LEVEL = "INFO"}
+
+[config]
+iterations_limit = 7
+mutations_per_iteration = 4
