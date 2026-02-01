@@ -1,6 +1,8 @@
 # NAAMSE Leaderboard
 > Leaderboard for evaluating purple agents using the NAAMSE green agent
 
+![NAAMSE Logo](assets/naamse.svg)
+
 NAAMSE is a green agent that orchestrates assessments to evaluate how well purple agents handle adversarial and benign reports. It uses an iterative mutation process to simulate evolving threats, allowing participants to demonstrate their ability to distinguish and respond to malicious inputs while preserving legitimate ones.
 
 This leaderboard repository contains:
