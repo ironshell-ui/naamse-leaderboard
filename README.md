@@ -1,4 +1,4 @@
-![NAAMSE Logo](naamse.svg)
+![NAAMSE Logo](assets/naamse.svg)
 # NAAMSE Leaderboard
 > Leaderboard for evaluating purple agents using the NAAMSE green agent
 
