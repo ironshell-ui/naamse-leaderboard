@@ -1,6 +1,6 @@
 [green_agent]
 agentbeats_id = "019bc066-0975-7de0-97e9-462bd9859488"
-env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", LOG_LEVEL = "INFO" , NAAMSE_RANDOM_SEED=42}
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", LOG_LEVEL = "INFO" , NAAMSE_RANDOM_SEED=34987656}
 
 [[participants]]
 agentbeats_id = "" # Your purple agent id here
