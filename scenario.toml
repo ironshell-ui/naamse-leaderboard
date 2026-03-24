@@ -1,13 +1,12 @@
 [green_agent]
 agentbeats_id = "019bc066-0975-7de0-97e9-462bd9859488"
-env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", LOG_LEVEL = "INFO" , NAAMSE_RANDOM_SEED=34987656}
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", LOG_LEVEL = "INFO", NAAMSE_RANDOM_SEED=34987656}
 
 [[participants]]
 agentbeats_id = "ironshell-ui/ironshell"
 name = "agent"
-env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_API_BASE = "${OPENAI_API_BASE}", LLM_MODEL = "claude-sonnet-4-6", LOG_LEVEL = "INFO" }
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_API_BASE = "${OPENAI_API_BASE}", LLM_MODEL = "claude-sonnet-4-6", LOG_LEVEL = "INFO" }
 
 [config]
 iterations_limit = 7
 mutations_per_iteration = 4
-
