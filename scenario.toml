@@ -10,3 +10,4 @@ env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", OPENAI_API_KEY = "${OPENAI_API_KEY
 [config]
 iterations_limit = 7
 mutations_per_iteration = 4
+
