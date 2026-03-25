@@ -1,6 +1,6 @@
 [green_agent]
 agentbeats_id = "019bc066-0975-7de0-97e9-462bd9859488"
-env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", GOOGLE_GENAI_USE_VERTEXAI = "True", GOOGLE_CLOUD_PROJECT = "${GOOGLE_CLOUD_PROJECT}", GOOGLE_CLOUD_LOCATION = "us-central1", LOG_LEVEL = "INFO", NAAMSE_RANDOM_SEED = 34987656, CUDA_VISIBLE_DEVICES = "", TOKENIZERS_PARALLELISM = "false", TRANSFORMERS_NO_ADVISORY_WARNINGS = "1", SENTENCE_TRANSFORMERS_HOME = "/tmp/st_cache", PYTHONSTARTUP = "/home/agentbeats/naamse/fix_sentence_transformers.py" }
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", GOOGLE_GENAI_USE_VERTEXAI = "False", LOG_LEVEL = "INFO", NAAMSE_RANDOM_SEED = 34987656, CUDA_VISIBLE_DEVICES = "", TOKENIZERS_PARALLELISM = "false", TRANSFORMERS_NO_ADVISORY_WARNINGS = "1", SENTENCE_TRANSFORMERS_HOME = "/tmp/st_cache", PYTHONSTARTUP = "/home/agentbeats/naamse/fix_sentence_transformers.py" }
 
 [[participants]]
 image = "ghcr.io/ironshell-ui/lambda-security-agent:latest"
