@@ -63,6 +63,8 @@ services:
     platform: linux/amd64
     container_name: green-agent
     command: ["--host", "0.0.0.0", "--port", "{green_port}", "--card-url", "http://green-agent:{green_port}"]
+    volumes:
+      - ./gemini_judge_fixed.py:/home/agentbeats/naamse/src/behavioral_engine/moe_score_subgraph/llm_judges/gemini_judge.py
     environment:{green_env}
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:{green_port}/.well-known/agent-card.json"]
