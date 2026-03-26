@@ -66,6 +66,7 @@ services:
     volumes:
       - ./gemini_judge_fixed.py:/home/agentbeats/naamse/src/behavioral_engine/moe_score_subgraph/llm_judges/gemini_judge.py
       - ./fix_sentence_transformers.py:/home/agentbeats/naamse/fix_sentence_transformers.py
+      - ./force_genai_not_vertex.py:/home/agentbeats/naamse/force_genai_not_vertex.py
     environment:{green_env}
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:{green_port}/.well-known/agent-card.json"]
