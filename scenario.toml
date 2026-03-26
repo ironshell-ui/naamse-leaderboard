@@ -5,7 +5,7 @@ env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", GOOGLE_GENAI_USE_VERTEXAI = "False
 [[participants]]
 image = "ghcr.io/ironshell-ui/lambda-security-agent:latest"
 name = "agent"
-env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_API_BASE = "${OPENAI_API_BASE}", LLM_MODEL = "claude-sonnet-4-6", LOG_LEVEL = "INFO" }
+env = { OPENAI_API_KEY = "${GOOGLE_API_KEY}", OPENAI_API_BASE = "${OPENAI_API_BASE}", LLM_MODEL = "gemini-2.5-flash", LOG_LEVEL = "INFO" }
 
 [config]
 iterations_limit = 7
